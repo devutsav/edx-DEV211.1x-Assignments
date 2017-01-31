@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Toggle, popover and button collapse not working -->
+<head>
+    <title>Using Bootstrap</title>
+    <link href="css/boom.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css" />-->
+     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet">
+     <script type="text/javascript" src="js/tooltip.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="alert alert-warning">
+    		<button type="button" class="close" data-dismiss="alert">X</button>
+    			<h4>This page cannot be loaded</h4>
+    				<p>
+        				<a href="http://www.google.com" target="_blank" class="alert-link">google.com</a>
+    				</p>
+	</div>
+    <h2>H2 Header</h2>
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!--<div class="navbar-header">
+				<a class="navbar-brand" href="#">Cool Web App</a>
+			</div>-->
+		</div>
+	</nav>
+	<div class="container">
+    <div class="jumbotron">
+    	<h1>Header</h1>
+    		<p>A paragraph containing a sentence of text.</p>
+    </div>
+    <blockquote>
+    		<p>A paragraph containing a sentence of text.</p>
+    			<small>A blurb mentioning someone who is a <cite title="Source Title">Famous Person</cite></small>
+    </blockquote>
+    <div class="panel panel-primary">
+    	<div class="panel-heading">
+    	    <h3 class="panel-title">Panel using Primary Theme</h3>
+    	</div>
+    	<div class="panel-body">
+    	    Content of the panel                
+    	</div>
+    </div>
+	<div class="alert alert-dismissible alert-success">
+    		<button type="button" class="close" data-dismiss="alert">Close</button>
+    			<h4>Alert Showing Success</h4>
+    				<p>
+        				Payment successful <a href="http://www.paytm.com" target="_blank" class="alert-link">paytm.com</a>
+    				</p>
+	</div>
+	<button class="btn btn-default" data-placement="left" data-toggle="tooltip" title="Tooltip on left" type="button">Tooltip on left</button> <button class="btn btn-lg btn-danger" data-content="And here's some amazing content. It's very engaging. Right?" data-toggle="popover" title="Popover title" type="button">
+            Click to toggle popover
+        </button>
+	<button aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-target="#collapseExample" data-    toggle="collapse" type="button">
+             Secret Message
+        </button>
+		<div class="collapse" id="collapseExample">
+			<div class="well">
+			     TUKI !!!
+			</div>
+		</div>
+	
+</body>
+</html>
