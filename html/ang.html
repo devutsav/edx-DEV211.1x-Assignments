@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title> Angular Js introduction </title>
+		  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+                  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+                   <script src="js/app.js"></script>
+	
+	<head>
+	<body ng-app='basicApp'>
+		<div ng-controller="homeController">
+		<label>Usename:</label>
+		<input type="Text" ng-model="uname" placeholder="Enter your name"/>
+		<hr />
+		<h1> Hello {{uname}}</h1>
+		<label>phone no:</label>
+		<input type="Password" ng-model="phone" placeholder="Enter your phone no"/>
+		<hr />
+		<h2> Hello {{phone}} </h2>
+		<button type="button" ng-click="test()" >Click here</button>
+		</div>
+	</body>
+<html>
